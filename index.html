@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>SANKALP 2024</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="k87XL2EmOKcDicsL7vWH8Gu8iD2z069XErFKMvGdBFY" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<style>
+    .hd1{font-size:1.80em; color:#093D45; font-weight: bolder;}
+    .hd2{font-size:1.50em; color: #AF453E;}
+    .hd3{font-size:1.4em; color:black; font-weight: bold;}
+    .hd4{font-size:1.3em;}
+    li{font-size:1.3em; color:navy}
+</style>
+</head>
+
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        // Fetch and insert the navigation bar
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
+    </script>
+</body>
+
+<script>
+    // Fetch and insert the navigation bar
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+</script>
